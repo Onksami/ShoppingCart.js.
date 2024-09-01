@@ -1,4 +1,4 @@
-// Step 1: Define a type for Categories
+
 type Category =  number | string ;
 
 interface Product {
@@ -48,6 +48,6 @@ const displayCart = (cart: Product[]): void => {
   console.log(`Total: $${calculateTotal(cart)}`);
 };
 
-addToCart(products[0]); // Adding Laptop
-addToCart(products[2]); // Adding Bananas
+addToCart(products[0]); //  Laptop
+addToCart(products[2]); //  Bananas
 displayCart(shoppingCart);
